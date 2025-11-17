@@ -1,0 +1,84 @@
+.todo-details {
+  margin-top: 2rem;
+}
+
+.todo-details h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.details-card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.detail-actions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.detail-actions button {
+  width: 100%;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.detail-row label {
+  font-weight: 600;
+  color: #495057;
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.detail-row span {
+  color: #333;
+  word-break: break-word;
+  flex: 1;
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.not-found h1 {
+  font-size: 2.5rem;
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+.not-found p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    padding: 1.5rem;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .detail-row label {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
